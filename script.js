@@ -66,4 +66,7 @@ function shwoWeatherReport(weather){
     else if (showStatus.textContent == "Haze"){
         document.body.style.backgroundImage = "url('images/haze.jpg')";
     }
+    else if (showStatus.textContent == "Drizzle"){
+        document.body.style.backgroundImage = "url('images/drizzle.jpg')";
+    }
 }
